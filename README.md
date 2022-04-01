@@ -47,7 +47,6 @@ Characteristic
 
 6. Two wheel robot car chasis
 
-
 7.arduino uno
 
 
