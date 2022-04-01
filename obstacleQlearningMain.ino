@@ -1,5 +1,5 @@
 
-//
+//initialise motor ,sensor variables
 
 
 
@@ -15,10 +15,9 @@ float distance;
 
 bool Obstacle = false;
 int FLAG;
-/////////////////////////END/////////////////////////////
+//END//
 
-/////////////////////////////////////Q LEARNING PARAMETERS///////////////////////////////////////////
-
+//adding Q learnig values//
 float ALPHA = 0.1;    //LEARNING RATE
 float GAMMA = 0.5;    //DISCOUNT FACTOR
 float EPSILON = 0.90;  //EXPLORATION PARAMETER
