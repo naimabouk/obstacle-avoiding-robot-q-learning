@@ -7,6 +7,7 @@ after a certain number of episodes and from this dataset it
 can then the optimal action to take .
 
 MATERIALS USED
+
 1.ultrasonic sensor
 The SEN136B5B is an ultrasonic range finder from Seeedstudio. 
 It detects the distance of the closest object in front of the 
@@ -21,6 +22,7 @@ Using the speed of sound, this time can be converted to distance.
 [source :https://docs.arduino.cc/built-in-examples/sensors/Ping]
 
 2.L298 H bridge motor driver 
+
 This module is based on the very popular L298 Double H-Bridge integrated circuit driver.
 The circuit will allow you to easily and independently control two motors up to 2A each in both directions.
 
@@ -38,9 +40,14 @@ Characteristic
      4 Direction LED Indicators
 
 3.powerbank
+
 4.jumper wires
+
 5.dc motors
-6.  Two wheel robot car chasis
+
+6. Two wheel robot car chasis
+
+
 7.arduino uno
 
 
