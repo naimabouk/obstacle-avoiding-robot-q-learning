@@ -49,4 +49,24 @@ Characteristic
 
 7.arduino uno
 
+Code Explanation
+int ACTIONS = [0,1,2,3]
+//deines the actions the robot must perform which are forward  backward left and stop
 
+int NEXT_STATE;
+int STATE = 0;
+NEXT_STATE = STATE+1;
+//this is the state that the robot moves into after performing the first action 
+//the initial state of the robot in the beginning of a episode is survive 
+
+float Q[N_STATES][NUMBER_OF_ACTIONS] = {{0.0,0.0,0.0,0.0}, 
+                                        {0.0,0.0,0.0,0.0},  
+                                        {0.0,0.0,0.0,0.0},   
+                                        {0.0,0.0,0.0,0.0},   
+                                        {0.0,0.0,0.0,0.0},  
+                                        {0.0,0.0,0.0,0.0},
+                                        {0.0,0.0,0.0,0.0},
+                                        {0.0,0.0,0.0,0.0},
+                                        {0.0,0.0,0.0,0.0},
+                                        {0.0,0.0,0.0,0.0}};
+//
