@@ -54,6 +54,7 @@ Code Explanation
 int ACTIONS = [0,1,2,3]
 
 //deines the actions the robot must perform which are forward  backward left and stop
+//with 0 forward 1 backward 2 left and 3 right
 
 int NEXT_STATE;
 int STATE = 0;
